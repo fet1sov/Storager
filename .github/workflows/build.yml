@@ -29,6 +29,7 @@ jobs:
 
     - name: Installing all packages 📦
       run: |
+        npm cache clean -f
         npm install
 
     - name: Running CI 📦
